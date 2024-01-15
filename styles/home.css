@@ -1,0 +1,99 @@
+/* Font add from google font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common style */
+.common-title{
+    color: #131318;
+    font-size:2.25rem;
+    font-weight: 800;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Nav related style start */
+
+.nav-section{
+    display: flex;
+    padding: 0px 135px;
+    justify-content: space-between;
+    align-items: center;
+}
+.world{
+    color: #FF5400;
+}
+
+.nav-section .nav-menu a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+
+}
+#home{
+    color: #FF5400;
+}
+
+/* Nav related style End */
+
+/* Banner related style start*/
+
+.banner-section{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');background-position: center;
+    background-repeat: no-repeat;
+    max-width: 75%;
+    margin: 0px auto;
+    background-size: cover;
+    border-radius: 16px;
+    border: 2px solid slateblue;
+
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    max-width: 670px;
+    margin: 25px auto;
+    
+}
+.search-option{
+    display:flex;
+    padding: 16px;
+    justify-content:center;
+    margin: 50px 300px 100px 300px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+    
+}
+.search-option>input,select{
+   font-weight: 700;
+   color: rgba(19, 19, 24, 0.50); 
+   border-radius: 8px;
+   background: #FFF;
+   padding:10px;
+}
+.btn-find{
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 60px;
+}
+
+
+/* Banner related style end*/
