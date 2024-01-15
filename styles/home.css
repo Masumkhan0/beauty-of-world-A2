@@ -20,6 +20,16 @@ body{
 
 /* Nav related style start */
 
+.nav-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#nav-title{
+    color: #131318;
+    font-size:2.25rem;
+    font-weight: 800;
+}
 .nav-section{
     display: flex;
     padding: 0px 135px;
@@ -92,8 +102,37 @@ body{
     font-weight: 700;
     border-radius: 8px;
     background: #FF5400;
-    padding: 15px 60px;
+    padding: 15px 40px;
 }
 
-
 /* Banner related style end*/
+
+/* Popular tour section start */
+
+.popular-tour{
+    max-width: 75%;
+    margin: 100px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.tour-content{
+    max-width: 50%;
+    text-align: justify;
+}
+
+.btn-read{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    margin-top: 20px;
+
+
+}
+.popular-tour img{
+    width: 50%;
+}
+/* Popular tour section end */
