@@ -56,7 +56,7 @@ body{
 /* Banner related style start*/
 
 .banner-section{
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');background-position: center;
     background-repeat: no-repeat;
     max-width: 75%;
@@ -143,11 +143,7 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-.photo-gallery{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
 
-}
 /* Gallery related style end */
 .photo{
     display: grid;
@@ -300,6 +296,7 @@ footer{
     align-items: center;
 }
 .footer-content p{
+    text-align: center;
     max-width: 50%;
     margin-top: 20px;
 } 
@@ -312,5 +309,64 @@ footer{
     margin-top: 20px;
     
 }
+.copy{
+    text-align: center;
+}
 
 /* Footer style end */
+
+
+/* responsive related style */
+
+@media screen and (max-width:600px){
+    .nav-menu a{
+        display: none;
+    }
+
+.banner-section{
+    width:100%;
+    margin: 0px 5px;
+}
+.search-option{
+    flex-direction: column;
+    margin: 0px;
+    gap: 5px;
+}
+.popular-tour{
+    flex-direction: column;
+    max-width:90%;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    object-fit: cover;
+
+}
+.email-section{
+    flex-direction: column;
+    align-items: center;
+
+}
+.letter-img img{
+    max-width: 100%;
+
+}
+.save{
+    max-width:200px;
+    position: relative;
+    right: 900px;
+    bottom: 100px;
+}
+.save h3{
+    font-size:1.5ren;
+    font-weight: 600;
+}
+.footer-content p{
+    max-width: 100%;
+    flex-direction: row;
+    text-align: justify;
+}
+}
